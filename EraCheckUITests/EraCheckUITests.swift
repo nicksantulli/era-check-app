@@ -7,6 +7,8 @@ final class EraCheckUITests: XCTestCase {
     override func setUpWithError() throws {
         continueAfterFailure = false
         app = XCUIApplication()
+        // Skip the studio intro overlay in UI tests so first taps target app UI.
+        app.launchArguments += ["-skipStudioIntro", "-skipInterstitialAds"]
         app.launch()
     }
 

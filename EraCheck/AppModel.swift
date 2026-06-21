@@ -47,6 +47,7 @@ final class EraCheckModel: ObservableObject {
     @Published var adShownThisSession: Bool {
         didSet { UserDefaults.standard.set(adShownThisSession, forKey: kAdShownThisSession) }
     }
+    private let launchArguments = ProcessInfo.processInfo.arguments
 
     init() {
         totalQuizzesTaken = UserDefaults.standard.integer(forKey: kTotalQuizzesTaken)
@@ -129,6 +130,8 @@ final class EraCheckModel: ObservableObject {
     }
 
     private func maybeShowInterstitial() {
+        // UI tests must run deterministic core flows without ad overlays.
+        guard !launchArguments.contains("-skipInterstitialAds") else { return }
         guard !PurchaseManager.shared.isProUnlocked else { return }
         guard !adShownThisSession else { return }
         #if canImport(GoogleMobileAds)
