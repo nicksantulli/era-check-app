@@ -1,0 +1,37 @@
+[
+  {
+    "id": "tumblrRomantic",
+    "name": "Tumblr Romantic",
+    "tagline": "soft · sad · real",
+    "blurb": "You've been misunderstood since 2012, and honestly? That's kind of the point. You find beauty in things that are a little broken, a little sad, a little real. Your aesthetic lives between a song that destroys you and the person you text about it at 2am. You don't have phases — you have depths.",
+    "colorHex": "#4A1942"
+  },
+  {
+    "id": "vineChaosAgent",
+    "name": "Vine Chaos Agent",
+    "tagline": "loud · random · viral",
+    "blurb": "You were chronically online before that was a personality trait, and you have the brain rot to prove it. You don't have a vibe — you are the vibe, then immediately undercut it with something ridiculous. You've made more people laugh than you'll ever know, mostly by accident, mostly via a three-second clip. Chaos isn't a phase for you. It's a calling.",
+    "colorHex": "#FF5722"
+  },
+  {
+    "id": "vscoNaturalist",
+    "name": "VSCO Naturalist",
+    "tagline": "filter · flow · free",
+    "blurb": "You understand that the best things in life are warm-toned and slightly overexposed. You have strong opinions about golden hour, you know exactly where the light hits in your apartment, and your camera roll is the most aesthetically consistent thing about you. You're not chasing perfection — you just happen to make it look easy.",
+    "colorHex": "#C8A97A"
+  },
+  {
+    "id": "darkAesthetic",
+    "name": "Dark Aesthetic",
+    "tagline": "edge · art · night",
+    "blurb": "You've always existed somewhere between 'I feel everything' and 'I'm totally fine.' Your aesthetic is a mood, your music taste is a personality, and your For You Page is darker than your Instagram. You're not edgy for the sake of it — you're just honest about the fact that beautiful things can also be a little scary.",
+    "colorHex": "#2C1B18"
+  },
+  {
+    "id": "quietLuxury",
+    "name": "Quiet Luxury",
+    "tagline": "clean · calm · earned",
+    "blurb": "You've stopped explaining yourself, and honestly, that's the most powerful thing about you. You prefer quality over quantity, silence over noise, and you've developed a very specific reaction to things that feel cheap. You're not cold — you're curated. There's a difference, and you've always known it.",
+    "colorHex": "#D4C5B0"
+  }
+]

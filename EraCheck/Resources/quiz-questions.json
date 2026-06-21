@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "Your ideal Saturday involves...",
+    "answers": [
+      { "text": "Journaling and sad music", "weights": { "tumblrRomantic": 3 } },
+      { "text": "Filming a random bit with friends", "weights": { "vineChaosAgent": 3 } },
+      { "text": "A walk with good lighting and your camera", "weights": { "vscoNaturalist": 3, "quietLuxury": 1 } },
+      { "text": "Rewatching anime in the dark", "weights": { "darkAesthetic": 3 } },
+      { "text": "A slow morning with an expensive coffee", "weights": { "quietLuxury": 3, "vscoNaturalist": 1 } }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "The app you open first thing in the morning is...",
+    "answers": [
+      { "text": "Tumblr (or a blog/journal app)", "weights": { "tumblrRomantic": 3 } },
+      { "text": "Whatever has the newest meme format", "weights": { "vineChaosAgent": 3 } },
+      { "text": "Camera (to catch the morning light)", "weights": { "vscoNaturalist": 3 } },
+      { "text": "Pinterest for dark/alt inspo", "weights": { "darkAesthetic": 3 } },
+      { "text": "Nothing — I don't scroll in the morning", "weights": { "quietLuxury": 3 } }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Your ideal outfit is...",
+    "answers": [
+      { "text": "Oversized everything, a little romantic, definitely has a scarf", "weights": { "tumblrRomantic": 3, "vscoNaturalist": 1 } },
+      { "text": "Chaotic layering that shouldn't work but does", "weights": { "vineChaosAgent": 3, "darkAesthetic": 1 } },
+      { "text": "Neutral tones, clean shapes, nothing synthetic", "weights": { "vscoNaturalist": 3, "quietLuxury": 1 } },
+      { "text": "Black, black, and more black with one interesting accessory", "weights": { "darkAesthetic": 3 } },
+      { "text": "Expensive-looking basics. No logos. Good quality.", "weights": { "quietLuxury": 3 } }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "What's on your camera roll right now?",
+    "answers": [
+      { "text": "A lot of blurry black-and-white photos I took of nothing in particular", "weights": { "tumblrRomantic": 3 } },
+      { "text": "Screenshots of things I sent to the group chat", "weights": { "vineChaosAgent": 3 } },
+      { "text": "Landscapes, plants, golden-hour selfies", "weights": { "vscoNaturalist": 3 } },
+      { "text": "Aesthetic dark photography, fan art screenshots", "weights": { "darkAesthetic": 3 } },
+      { "text": "Clean interiors, one great outfit photo, a coffee", "weights": { "quietLuxury": 3, "vscoNaturalist": 1 } }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Your music taste is...",
+    "answers": [
+      { "text": "Lana Del Rey era, sad indie, songs that feel like a rainy window", "weights": { "tumblrRomantic": 3 } },
+      { "text": "Completely unhinged shuffle — one minute hyperpop, next minute country", "weights": { "vineChaosAgent": 3 } },
+      { "text": "Indie folk, lo-fi, stuff that sounds like summer", "weights": { "vscoNaturalist": 3 } },
+      { "text": "Alt/metal/dark pop — the kind your parents don't understand", "weights": { "darkAesthetic": 3 } },
+      { "text": "Jazz, classical, or whatever has no words so I can actually think", "weights": { "quietLuxury": 3 } }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "The phrase that best describes your online presence is...",
+    "answers": [
+      { "text": "Oversharing in the most poetic way possible", "weights": { "tumblrRomantic": 3 } },
+      { "text": "Posting chaos, never context", "weights": { "vineChaosAgent": 3 } },
+      { "text": "Curated vibes, good lighting always", "weights": { "vscoNaturalist": 3 } },
+      { "text": "Dark side of the internet, but tastefully", "weights": { "darkAesthetic": 3 } },
+      { "text": "Barely online, extremely intentional", "weights": { "quietLuxury": 3, "vscoNaturalist": 1 } }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "Your go-to creative output is...",
+    "answers": [
+      { "text": "Writing — journals, poems, long DMs", "weights": { "tumblrRomantic": 3 } },
+      { "text": "Making people laugh, usually unintentionally", "weights": { "vineChaosAgent": 3 } },
+      { "text": "Photography or video with a distinct mood", "weights": { "vscoNaturalist": 3, "darkAesthetic": 1 } },
+      { "text": "Digital art, playlists, or edits that hit a very specific feeling", "weights": { "darkAesthetic": 3 } },
+      { "text": "Interior design, capsule wardrobe planning, or hosting a perfect dinner", "weights": { "quietLuxury": 3 } }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "When you like something, you...",
+    "answers": [
+      { "text": "Write three paragraphs about it in your notes app", "weights": { "tumblrRomantic": 3 } },
+      { "text": "Immediately text it to five people with no explanation", "weights": { "vineChaosAgent": 3 } },
+      { "text": "Add it to your mood board / save it on Pinterest", "weights": { "vscoNaturalist": 3, "quietLuxury": 1 } },
+      { "text": "Keep it to yourself like a secret", "weights": { "darkAesthetic": 3 } },
+      { "text": "Mention it once, casually, to one person who will understand", "weights": { "quietLuxury": 3 } }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "Your relationship with social media is...",
+    "answers": [
+      { "text": "It's complicated. I've deleted it twice. I'm back.", "weights": { "tumblrRomantic": 3 } },
+      { "text": "I'm extremely online and I refuse to apologize", "weights": { "vineChaosAgent": 3 } },
+      { "text": "I post occasionally when the photo is actually good", "weights": { "vscoNaturalist": 3, "quietLuxury": 1 } },
+      { "text": "I lurk. I curate. I never explain.", "weights": { "darkAesthetic": 3 } },
+      { "text": "I'm barely on it, and yet somehow my grid looks perfect", "weights": { "quietLuxury": 3 } }
+    ]
+  },
+  {
+    "id": 10,
+    "question": "Someone who knows you well would say...",
+    "answers": [
+      { "text": "'You feel things very deeply.'", "weights": { "tumblrRomantic": 3, "darkAesthetic": 1 } },
+      { "text": "'You're chaotic but somehow always fun.'", "weights": { "vineChaosAgent": 3 } },
+      { "text": "'You make everything look effortless.'", "weights": { "vscoNaturalist": 3, "quietLuxury": 1 } },
+      { "text": "'You're intense in a good way.'", "weights": { "darkAesthetic": 3 } },
+      { "text": "'You have very specific taste and you know it.'", "weights": { "quietLuxury": 3 } }
+    ]
+  }
+]

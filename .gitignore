@@ -1,0 +1,19 @@
+# Secrets — NEVER commit
+.env
+.env.*
+*.mobileprovision
+*.p12
+*.cer
+*.certSigningRequest
+
+# Xcode / build
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+*.xcscmblueprint
+.DS_Store
+
+# XcodeGen project
+EraCheck.xcodeproj/*.xcworkspace/xcuserdata/
+EraCheck.xcodeproj/xcuserdata/

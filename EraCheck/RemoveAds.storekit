@@ -1,0 +1,48 @@
+{
+  "appPolicies" : {
+    "eula" : "",
+    "policies" : [
+      {
+        "locale" : "en_US",
+        "policyText" : "",
+        "policyURL" : ""
+      }
+    ]
+  },
+  "identifier" : "EF123456-789A-4BCD-EF01-23456789ABCD",
+  "nonRenewingSubscriptions" : [
+  ],
+  "products" : [
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "ABCDEF12-3456-4789-ABCD-1234567890AB",
+      "localizations" : [
+        {
+          "description" : "Remove the single interstitial ad per quiz session in Era Check.",
+          "displayName" : "Remove Ads",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.nsantulli.eracheck.removeads",
+      "referenceName" : "Remove Ads",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_applicationInternalID" : "",
+    "_developerTeamID" : "",
+    "_failTransactionsEnabled" : false,
+    "_lastSynchronizedDate" : 0,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+    ]
+  },
+  "subscriptionGroups" : [
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
