@@ -8,6 +8,21 @@ struct EraRevealView: View {
             let fg = result.primary.textColor
             let fgSoft = fg.opacity(0.85)
             VStack(spacing: 20) {
+                HStack {
+                    Spacer()
+                    Button {
+                        model.isShowingSettings = true
+                    } label: {
+                        Image(systemName: "gearshape")
+                            .font(.system(size: 20, weight: .medium))
+                            .foregroundColor(fgSoft)
+                            .padding(8)
+                            .background(Color.white.opacity(0.06))
+                            .clipShape(Circle())
+                    }
+                    .accessibilityLabel("Open settings")
+                }
+                .padding(.top, 4)
                 VStack(alignment: .leading, spacing: 8) {
                     Text(result.title)
                         .font(.system(size: 48, weight: .bold))

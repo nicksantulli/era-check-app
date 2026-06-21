@@ -1,5 +1,4 @@
 import UIKit
-import AppTrackingTransparency
 
 // MARK: - AdMob scaffold (Owner-gated — inert until the SDK + real IDs land)
 //
@@ -107,7 +106,6 @@ final class AdManager: NSObject {
             #endif
             return
         }
-        requestTrackingAuthorization()
         // Register known internal devices as test devices BEFORE the SDK
         // starts or makes its first ad request. Unconditional on purpose —
         // covers DEBUG, TestFlight, and the Owner's production build.
@@ -117,18 +115,14 @@ final class AdManager: NSObject {
         }
     }
 
+    // No ATT prompt — ads are always non-personalized (npa=1); privacy manifest
+    // can honestly declare no tracking. See DUD-224 and QA blocker from DUD-341.
     private func nonPersonalizedRequest() -> Request {
         let request = Request()
         let extras = Extras()
         extras.additionalParameters = ["npa": "1"]
         request.register(extras)
         return request
-    }
-
-    private func requestTrackingAuthorization() {
-        guard #available(iOS 14, *) else { return }
-        guard ATTrackingManager.trackingAuthorizationStatus == .notDetermined else { return }
-        ATTrackingManager.requestTrackingAuthorization { _ in }
     }
 
     private func loadAd() {
